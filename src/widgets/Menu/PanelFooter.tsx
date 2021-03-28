@@ -6,9 +6,7 @@ import Flex from "../../components/Flex/Flex";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import Link from "../../components/Link/Link";
 import Skeleton from "../../components/Skeleton/Skeleton";
-import Button from "../../components/Button/Button";
 import IconButton from "../../components/Button/IconButton";
-import MenuButton from "./MenuButton";
 import * as IconModule from "./icons";
 import { socials, MENU_ENTRY_HEIGHT } from "./config";
 import { PanelProps, PushedProps } from "./types";
@@ -16,7 +14,6 @@ import { PanelProps, PushedProps } from "./types";
 interface Props extends PanelProps, PushedProps {}
 
 const Icons = (IconModule as unknown) as { [key: string]: React.FC<SvgProps> };
-const { MoonIcon, SunIcon, LanguageIcon } = Icons;
 
 const Container = styled.div`
   flex: none;
@@ -110,28 +107,6 @@ const PanelFooter: React.FC<Props> = ({
           })}
         </Flex>
       </SocialEntry>
-      <SettingsEntry>
-        <Dropdown
-          position="top-right"
-          target={
-            <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
-              <Text color="textSubtle">{currentLang?.toUpperCase()}</Text>
-            </Button>
-          }
-        >
-          {langs.map((lang) => (
-            <MenuButton
-              key={lang.code}
-              fullWidth
-              onClick={() => setLang(lang)}
-              // Safari fix
-              style={{ minHeight: "32px", height: "auto" }}
-            >
-              {lang.language}
-            </MenuButton>
-          ))}
-        </Dropdown>
-      </SettingsEntry>
     </Container>
   );
 };

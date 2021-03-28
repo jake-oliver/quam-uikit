@@ -353,7 +353,7 @@ var Icon$K = function (props) {
 
 var Icon$J = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React__default['default'].createElement("image", { width: "32", height: "32", href: "/images/egg/logo.png" })));
+        React__default['default'].createElement("image", { width: "32", height: "32", href: "/images/quam/quam.png" })));
 };
 
 var Icon$I = function (props) {
@@ -410,7 +410,7 @@ var Icon$F = function (props) {
 
 var Icon$E = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "/images/egg/9.png" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "/images/quam/quam-price-box.png" })));
 };
 
 var Icon$D = function (props) {
@@ -1140,7 +1140,7 @@ var Progress = function (_a) {
 var rotate = styled.keyframes(templateObject_1$j || (templateObject_1$j = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
 var SpinnerIcon = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
-        React__default['default'].createElement("image", { width: "96", height: "96", href: "/images/egg/9.png" })));
+        React__default['default'].createElement("image", { width: "96", height: "96", href: "/images/quam/quam.png" })));
 };
 var Container$3 = styled__default['default'].div(templateObject_2$9 || (templateObject_2$9 = __makeTemplateObject(["\n  position: relative;\n"], ["\n  position: relative;\n"])));
 var RotatingPancakeIcon = styled__default['default'](SpinnerIcon)(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), rotate);
@@ -1870,9 +1870,9 @@ var Icon$k = function (props) {
 };
 
 var Logo$1 = function (_a) {
-    var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
+    _a.isDark; var props = __rest(_a, ["isDark"]);
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? "/images/egg/LogoTextNewDark.png" : "/images/egg/LogoTextNewWhite.png" })));
+        React__default['default'].createElement("image", { width: "205", height: "26", href: "/images/quam/logo-with-text.png" })));
 };
 
 var Icon$j = function (props) {
@@ -2027,11 +2027,11 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.pancakeswap.finance",
+                href: "https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x1ade17b4b38b472b5259bbc938618226df7b5ca8",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.pancakeswap.finance/#/pool",
+                href: "https://exchange.pancakeswap.finance/#/add/0x1ade17b4b38b472b5259bbc938618226df7b5ca8/0xe9e7cea3dedca5984780bafc599bd69add087d56",
             },
         ],
     },
@@ -2115,16 +2115,12 @@ var links = [
             //   href: "https://voting.pancakeswap.finance",
             // },
             {
-                label: "Github",
-                href: "https://github.com/goosedefi/",
-            },
-            {
-                label: "Docs",
-                href: "https://goosedefi.gitbook.io/goose-finance/",
+                label: "Homepage",
+                href: "https://quamnetwork.com/",
             },
             {
                 label: "Blog",
-                href: "https://goosefinance.medium.com/",
+                href: "https://quamnetwork.medium.com/",
             },
         ],
     },
@@ -2135,63 +2131,19 @@ var socials = [
         icon: "TelegramIcon",
         items: [
             {
-                label: "English",
-                href: "https://t.me/goosedefi",
+                label: "Chat",
+                href: "https://t.me/Quamnetwork",
             },
-            // {
-            //   label: "Bahasa Indonesia",
-            //   href: "https://t.me/PancakeSwapIndonesia",
-            // },
-            {
-                label: "中文",
-                href: "https://t.me/goosefinancechinese",
-            },
-            // {
-            //   label: "Tiếng Việt",
-            //   href: "https://t.me/PancakeSwapVN",
-            // },
-            // {
-            //   label: "Italiano",
-            //   href: "https://t.me/pancakeswap_ita",
-            // },
-            {
-                label: "русский",
-                href: "https://t.me/goosefinancerussian",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/GooseFinanceTurkey",
-            },
-            // {
-            //   label: "Português",
-            //   href: "https://t.me/PancakeSwapPortuguese",
-            // },
-            {
-                label: "Español",
-                href: "https://t.me/goosefinancespanish",
-            },
-            {
-                label: "日本語",
-                href: "https://t.me/goosefinancejapanese",
-            },
-            // {
-            //   label: "Français",
-            //   href: "https://t.me/pancakeswapfr",
-            // },
             {
                 label: "Announcements",
-                href: "https://t.me/goosefinanceann",
-            },
-            {
-                label: "Price Bot",
-                href: "https://t.me/BinanceRocketEGG",
+                href: "https://t.me/quamnetworkANN",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FinanceGoose",
+        href: "https://twitter.com/quamnetwork",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2299,16 +2251,15 @@ var PanelBody = function (_a) {
 var templateObject_1$9;
 
 var Icons = IconModule;
-Icons.MoonIcon; Icons.SunIcon; var LanguageIcon = Icons.LanguageIcon;
 var Container = styled__default['default'].div(templateObject_1$8 || (templateObject_1$8 = __makeTemplateObject(["\n  flex: none;\n  padding: 8px 4px;\n  background-color: ", ";\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n"], ["\n  flex: none;\n  padding: 8px 4px;\n  background-color: ", ";\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n"])), function (_a) {
     var theme = _a.theme;
     return theme.nav.background;
 });
 var PriceLink = styled__default['default'].a(templateObject_2$3 || (templateObject_2$3 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
-var SettingsEntry = styled__default['default'].div(templateObject_3$1 || (templateObject_3$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
+styled__default['default'].div(templateObject_3$1 || (templateObject_3$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
 var SocialEntry = styled__default['default'].div(templateObject_4$1 || (templateObject_4$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"])), MENU_ENTRY_HEIGHT);
 var PanelFooter = function (_a) {
-    var isPushed = _a.isPushed, pushNav = _a.pushNav; _a.toggleTheme; _a.isDark; var cakePriceUsd = _a.cakePriceUsd, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang, priceLink = _a.priceLink;
+    var isPushed = _a.isPushed, pushNav = _a.pushNav; _a.toggleTheme; _a.isDark; var cakePriceUsd = _a.cakePriceUsd; _a.currentLang; _a.langs; _a.setLang; var priceLink = _a.priceLink;
     if (!isPushed) {
         return (React__default['default'].createElement(Container, null,
             React__default['default'].createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
@@ -2328,12 +2279,7 @@ var PanelFooter = function (_a) {
                 }
                 return (React__default['default'].createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
                     React__default['default'].createElement(Icon, __assign({}, iconProps))));
-            }))),
-        React__default['default'].createElement(SettingsEntry, null,
-            React__default['default'].createElement(Dropdown, { position: "top-right", target: React__default['default'].createElement(Button, { variant: "text", startIcon: React__default['default'].createElement(LanguageIcon, { color: "textSubtle", width: "24px" }) },
-                    React__default['default'].createElement(Text, { color: "textSubtle" }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default['default'].createElement(MenuButton, { key: lang.code, fullWidth: true, onClick: function () { return setLang(lang); }, 
-                // Safari fix
-                style: { minHeight: "32px", height: "auto" } }, lang.language)); })))));
+            })))));
 };
 var templateObject_1$8, templateObject_2$3, templateObject_3$1, templateObject_4$1;
 
