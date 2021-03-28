@@ -1872,7 +1872,7 @@ var Icon$k = function (props) {
 var Logo$1 = function (_a) {
     _a.isDark; var props = __rest(_a, ["isDark"]);
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React__default['default'].createElement("image", { width: "205", height: "26", href: "/images/quam/logo-with-text.png" })));
+        React__default['default'].createElement("image", { width: "130", height: "35", href: "/images/quam/logo-with-text.png" })));
 };
 
 var Icon$j = function (props) {

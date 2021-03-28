@@ -11,8 +11,8 @@ const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
   return (
     <Svg viewBox="0 0 205 26" {...props}>
       <image
-        width="205"
-        height="26"
+        width="130"
+        height="35"
         href="/images/quam/logo-with-text.png"
       />
     </Svg>
