@@ -340,7 +340,7 @@ var Icon$K = function (props) {
 
 var Icon$J = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React.createElement("image", { width: "32", height: "32", href: "/images/quam/quam.png" })));
+        React.createElement("image", { width: "32", height: "32", href: "/images/quam/quam-logo.png" })));
 };
 
 var Icon$I = function (props) {
